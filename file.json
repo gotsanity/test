@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "id": "Centralia",
+      "StateCode": "WA",
+      "CountryCode": "USA"
+    },
+    {
+      "id": "Rochester",
+      "StateCode": "WA",
+      "CountryCode": "USA"
+    },
+    {
+      "id": "Olympia",
+      "StateCode": "WA",
+      "CountryCode": "USA"
+    },
+    {
+      "id": "Portland",
+      "StateCode": "OR",
+      "CountryCode": "USA"
+    },
+    {
+      "id": "Tigard",
+      "StateCode": "OR",
+      "CountryCode": "USA"
+    },
+    {
+      "id": "Vancouver",
+      "StateCode": "OR",
+      "CountryCode": "USA"
+    }
+  ],
+  "links": [
+    {
+      "source": "Centralia",
+      "target": "Rochester",
+      "weight": 25
+    },
+    {
+      "source": "Centralia",
+      "target": "Portland",
+      "weight": 50
+    },
+    {
+      "source": "Centralia",
+      "target": "Vancouver",
+      "weight": 30
+    },
+    {
+      "source": "Rochester",
+      "target": "Centralia",
+      "weight": 1
+    },
+    {
+      "source": "Rochester",
+      "target": "Olympia",
+      "weight": 1
+    },
+    {
+      "source": "Olympia",
+      "target": "Rochester",
+      "weight": 1
+    },
+    {
+      "source": "Portland",
+      "target": "Tigard",
+      "weight": 1
+    },
+    {
+      "source": "Portland",
+      "target": "Centralia",
+      "weight": 50
+    },
+    {
+      "source": "Portland",
+      "target": "Vancouver",
+      "weight": 5
+    },
+    {
+      "source": "Tigard",
+      "target": "Portland",
+      "weight": 1
+    },
+    {
+      "source": "Tigard",
+      "target": "Vancouver",
+      "weight": 2
+    },
+    {
+      "source": "Vancouver",
+      "target": "Portland",
+      "weight": 5
+    },
+    {
+      "source": "Vancouver",
+      "target": "Centralia",
+      "weight": 30
+    },
+    {
+      "source": "Vancouver",
+      "target": "Tigard",
+      "weight": 2
+    }
+  ]
+}
